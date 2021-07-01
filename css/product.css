@@ -25,7 +25,7 @@ body {
   width: 196px;
   padding: 0;
   margin: 0 0 0;
-  height: inherit;
+  height: 100%;
 }
 
 .menu-left {
@@ -38,11 +38,11 @@ body {
 .side-menu-title {
   font-family: Roboto;
   font-weight: Regular;
-  font-size: 36px;
+  font-size: 33px;
   position: top;
   top: 48px;
   margin-bottom: 20px;
-
+  padding: 10px;
 }
 
 .categories {
