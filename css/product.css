@@ -118,6 +118,39 @@ a:hover {
   border-radius: 50%;
 }
 
+.check-block{
+  width: 700px;
+  height: 400px;
+  background-color: beige;
+  border-radius:  50px;
+  display: flex ;
+  padding: 20px 30px;
+}
+
+.infobox{
+  width: 400px;
+  height: 200px;
+  margin: 70px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 
+.infobox  .quantity-input input{
+  width: 30px;
+  margin: 10px;
+}
+
+.infobox .buybtn-inanimate{
+  position: relative;
+  opacity: 1;
+  padding: 10px 30px;
+  color: white;
+  z-index: 0;
+  border-radius: 30px;
+  background-color: black;
+  transition: 0.2s;
+}
 

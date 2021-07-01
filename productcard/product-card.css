@@ -38,7 +38,7 @@
     transform: skewY(390deg);
   }
 
-  .product-frame .imgbox{
+  .product-frame .imgbox,.imgbox-inanimate{
     position: relative;
     justify-content: center;
     align-items: center;
