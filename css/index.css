@@ -75,12 +75,9 @@ html, body {
     min-height: 100%;
 }
 
-.carousel {
-    height: 600px;
-}
 
 .carousel-inner{
-    max-height: 600px !important;
+    max-height: 305px !important;
 }
 
 .item img {
@@ -182,6 +179,7 @@ body {
     color:black;
     height: 300px;
     position: relative;
+    overflow: hidden;
 }
 
 .footer .footer-content{
@@ -216,7 +214,7 @@ body {
     padding-top: 20px;
 }
 
-.col{
+.col-6{
     padding: 0px;
     margin: 10px 30px;
 
