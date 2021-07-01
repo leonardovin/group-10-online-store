@@ -77,7 +77,7 @@ html, body {
 
 
 .carousel-inner{
-    max-height: 305px !important;
+    max-height: 600px !important;
 }
 
 .item img {
