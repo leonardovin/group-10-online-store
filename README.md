@@ -113,7 +113,9 @@ Figura 7: Página de Pagamento
     Após seguir os critérios de compilação para a execução do servidor, o site http://localhost:8000/ permite ter acesso de uma forma geral das páginas da loja online de óculos.  
     
     Para a parte 2 do trabalho, foi criado uma aplicação usando Javascript, para desenvolver o lado do cliente, onde o permite navegar por diferentes rotas dentro do site da loja. Foram ilustradas e implementadas as páginas com as quais, posteriormente, o cliente irá interagir. 
+    
     Portando, as páginas também incluem elementos que determinam a aparência do site da loja, para um melhor aproveito do cliente e clareza ao utilizar os ícones implementados no site. Sob outra perspectiva, a implementação dos códigos, junto com o visual, auxiliam positivamente a experência do cliente ao percorrer as páginas do site.
+    
     Nos códigos, foram utilizadas bibliotecas, como o Bootstrap, que contribuem com a redução de quantidade de linhas, sem que suas funções sejam modificadas, trazendo agilidade para a implementação.  
 
 4.  **Plano de Teste**
