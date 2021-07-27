@@ -120,7 +120,11 @@ Figura 7: Página de Pagamento
 
 4.  **Plano de Teste**
 
+    Usar postman e a interface do cliente para testar as requisições. Monitoramento do banco de dados feito na interfacec web do MongoDB
+
 5.  **Resultado do Teste**
+
+    Testes do postman: https://www.getpostman.com/collections/a42670b20fc41e7ea1c5
 
 6.  **Procedimento de Compilação**
     
@@ -132,6 +136,14 @@ Figura 7: Página de Pagamento
     Após a intalação das dependências, utiliza-se o comando 'node server.js' para executar o servidor do projeto.
 
 7.  **Problemas**
+
+    Funcionalidade de carrinhho: No momento o carrinho apenas adiciona produtos, e nao difere se um mesmo produto já esta presente. A funcionalidade de limpar o carrinho de um usuario presente na pagina de carrinho foi implementada, mas após alguns conflitos com o objeto resultante dessa operação no banco de dados, foi optado por retira-la. Além disso, quando um produto é adicionado em uum carrinho, o seu estoque não muda no banco de dados.
+    
+    Ausencia da pagina de checkout.
+    
+    Ausencia de alguns avisos na interface.
+    
+    Ausencia de pagina de editar um produto
 
 8.  **Comentários**
 
